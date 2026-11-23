@@ -1,0 +1,10 @@
+[project]
+name = "comfyui-output-gallery"
+description = "Full-screen gallery for ComfyUI's output folder: browse, preview, multi-select and move images to the system trash."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = ["send2trash>=1.8.0"]
+requires-python = ">=3.9"
+
+[tool.comfy]
+DisplayName = "ComfyUI Output Gallery"
